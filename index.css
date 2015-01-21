@@ -1,37 +1,33 @@
-
-<html>
-<doctype: html/css>
-
-<head>
-        <link rel="stylesheet" type="text/css" href="style.css" />
-        <link href="script.js" type="text/javascript" />
-        <script>
-function getGreeting(Date){
-return "Today is " + Date();
+#right_column {
+    float: right;
+    width: 160px;
 }
-</script>
-<h1 id="greeting">
-    <link rel="style.css">
-        <ul id="nav_container">
-            <link rel="stylesheet" type="text/css" href="style.css">
-                <li> <a href="home.html">Home</a> </li>
-                <li> <a href="resume.html">Resume</a> </li>
-                <li> <a href="portfolio.html">Portfolio</a> </li>
-                <li> <a href="contact.html">Contact</a> </li>
-        </ul>
 
-<div id="main_content">
-    <div class="right_column" id="right_column">
-        <img src="http://i1150.photobucket.com/albums/o605/slaundy/160x600ad.gif">
-    </div>
-    <div class="left_column" id="left_column">
-        <img src="http://cdns2.freepik.com/free-photo/arsenal-logo-vector-material_15-5413.jpg">
-<p>
-Lorizzle fizzle brizzle nizzle amet, consectetuer adipiscing break yo neck, yall. Nullizzle sapizzle velit, yippiyo volutpat, suscipit quis, gravida vizzle, arcu. Pellentesque for sure tortor. Sizzle erizzle. Dizzle izzle dizzle yippiyo fo shizzle tempus tempor. Mauris pellentesque yippiyo et turpizzle. Da bomb izzle tortizzle. Pellentesque gangster rhoncizzle bow wow wow. In hac shizzle my nizzle crocodizzle platea dictumst. Break yo neck, yall dapibizzle. Cool tellizzle urna, pretium eu, mattizzle ac, eleifend vitae, nunc. Phat suscipit. Integer sempizzle go to hizzle sizzle its fo rizzle.
-</p>
-    </div>
+#left_column {
+    margin-right: 170px;
+}
 
-    
-<body>
-<br>
-    <img src="http://www.codecademy.com/assets/codecademy_logo_small.png" id="logo">
+ul {
+    list-style-type: none;
+    margin-bottom: 15px;
+}
+
+#nav_container li {
+    display: inline-block;
+}
+
+#nav_container a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 5px;
+}
+
+#nav_container li a:hover {
+    color: red;
+}
+
+body {
+    background-image: url("http://www.graphstock.com/wp-content/uploads/2010/08/3.jpg");
+    width: 900px;
+    margin: auto;
+}
